@@ -3,9 +3,7 @@ function isLeapYear(year){
     if(reminder === 0){
         return true;
     }
-    else{
-        return false;
-    }
+    return false;// else{return false;}
 }
 const myYearIsLeap = isLeapYear(1985);
 console.log('My Year is: ', myYearIsLeap);
